@@ -99,7 +99,7 @@ namespace bai13
             string[] arr = s.Split(
                                     new char[] { ' ' },
                                     StringSplitOptions.RemoveEmptyEntries); // xóa theo khoảng trắng, các kí tự rỗng thì loại bỏ
-
+			/////////////////////////////////////////////////////////////////////////
             s = "";
             for(int i=0;i<arr.Length;i++)
             {
